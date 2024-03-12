@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(39, 39, 39);
+}
+
+.main {
+  color: #005696;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.content-link {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005696;
+  margin-left: 175px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  background-color: #000000;
+  padding: 3px
+  
+}
+
+.link ul {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005696;
+  margin-left: 175px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4mm ridge rgba(0, 86, 150, .6);
+  float: left;
+  background-color: #000000;
+}
+
+.link a:visited {
+  color: #005696;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(49, 49, 49);
+  overflow-x: hidden;
+  padding-top: 20px;
+  float: left;
+}
+
+.sidenav a {
+  padding: 6px, 8px, 6px, 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005696;
+  display: block;
+  text-align: center;
+}
+
+.sidenav a.active, .link a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav a:hover {
+  color: #0081e4
+}
+
+.list {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005696;
+  margin-left: 175px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4mm ridge rgba(0, 86, 150, .6);
+  background-color: #000000;
+  display:inline-block;
+  position:relative;
+}
+
+.stat {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005696;
+  margin-left: 175px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4mm ridge rgba(0, 86, 150, .6);
+  background-color: #000000;
+  text-align: center;
+  font-size: 50px
+}
+@media screen and (max-height: 600px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .main {
+  color: #005696;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-left: 175px;
+  }
+  .link ul {
+    font-size: 18px;
+  }
+}
+
