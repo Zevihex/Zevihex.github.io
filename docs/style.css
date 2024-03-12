@@ -8,6 +8,20 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.content-link {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005696;
+  margin-left: 175px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  background-color: #000000;
+  padding: 3px
+  
+}
+
 .link ul {
   padding-top: 10px;
   padding-right: 10px;
@@ -51,8 +65,12 @@ body {
   text-align: center;
 }
 
-.sidenav a:hover, .sidenav a.active, .link a:hover {
+.sidenav a.active, .link a:hover {
   color: #f1f1f1;
+}
+
+.sidenav a:hover {
+  color: #0081e4
 }
 
 .list {
@@ -70,9 +88,34 @@ body {
   display:inline-block;
   position:relative;
 }
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-    
+
+.stat {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #005696;
+  margin-left: 175px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4mm ridge rgba(0, 86, 150, .6);
+  background-color: #000000;
+  text-align: center;
+  font-size: 50px
 }
 
+@media screen and (max-height: 600px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .main {
+  color: #005696;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-left: 175px;
+  }
+  .link ul {
+    font-size: 18px;
+  }
+}
