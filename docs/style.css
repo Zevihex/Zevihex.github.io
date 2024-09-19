@@ -25,6 +25,12 @@ body {
   font-family: Oxanium, 'Times New Roman';
 }
 
+.nav-button {
+  text-decoration: none;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+
 .content-link {
   text-decoration: none;
   font-size: 25px;
