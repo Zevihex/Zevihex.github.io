@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oxanium" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
     <title>
-      Zevihex's Cool Stuff Page
+      Zevihex's Gamba Game
     </title>
   </head>
   <body>
@@ -21,13 +21,18 @@
       <a href="./mastery.html" class="nav-button">Mastery</a>
       <a href="./achievements.html" class="nav-button">Achievements</a>
       <a href="./collectibles.html" class="nav-button">Collectibles</a>
-      <a href="./coolstuff.html" class="active nav-button">Cool Stuff</a>
+      <a href="./coolstuff.html" class="nav-button">Cool Stuff</a>
       <a href="./favcharacters.html" class="nav-button">Fav Characters</a>
-      <a href="./gamba.html" class="nav-button">Gamba</a>
+      <a href="./gamba.html" class="active nav-button">Gamba</a>
     </div>
-    <h1 class="main">Some cool videos I've made...</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3nLvucLtOuQ?si=TX0zNPjaN_2SF_RE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/56C-Y1E6To4?si=U_xMMx_oGQfaqZaK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="main">
+      <h1>Welcome to Gamba</h1>
+      <p>The rules: Collect as many numbers as you can by pressing the button!</p>
+    </div>
+    <button type="button" id="gambaButton">Roll</button>
+    <h1 class="main" id="currentNumber">Current Number: 0</h1>
+    <h2 class="main">Your numbers!</h2>
+    <h3 class="main" id="gambaArray">Numbers...</h3>
+    <script src="../js/gamba.js"></script>
   </body>
 </html>
-

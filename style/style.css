@@ -133,10 +133,6 @@ iframe {
   font-size: 50px
 }
 
-/* #button {
-  font-size: 200px;
-} */
-
 @media screen and (max-height: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}

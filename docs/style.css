@@ -133,9 +133,12 @@ iframe {
   font-size: 50px
 }
 
-/* #button {
-  font-size: 200px;
-} */
+#gambaButton {
+  font-size: 100px;
+  margin: auto;
+  position: block;
+  display: flex;
+} 
 
 @media screen and (max-height: 600px) {
   .sidenav {padding-top: 15px;}
