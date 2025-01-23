@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="https://files.catbox.moe/cxuj10.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Advent Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxanium" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
     <title>
-      Zevihex's Stats Page
+      Zevihex's Gamba Game
     </title>
   </head>
   <body>
@@ -17,18 +17,24 @@
       <a href="./index.html" class="nav-button">Home</a>
       <a href="./aboutme.html" class="nav-button">About Me</a>
       <a href="./links.html" class="nav-button">Links</a>
-      <a href="./stats.html" class="active nav-button">Stats</a>
-      <a href="./mastery.html"  class="nav-button">Mastery</a>
+      <a href="./stats.html" class="nav-button">Stats</a>
+      <a href="./mastery.html" class="nav-button">Mastery</a>
       <a href="./achievements.html" class="nav-button">Achievements</a>
       <a href="./collectibles.html" class="nav-button">Collectibles</a>
       <a href="./coolstuff.html" class="nav-button">Cool Stuff</a>
       <a href="./favcharacters.html" class="nav-button">Fav Characters</a>
-      <a href="./gamba.html" class="nav-button">Gamba</a>
+      <a href="./gamba.html" class="active nav-button">Gamba</a>
     </div>
-    <h1 class="stat">Gaming Statistics</h1>
-    <h1 class="stat">Collectibles Collected: 1468</h1> <!-- Refer to Achievement Breakdown Doc -->
-    <h1 class="stat">Total Achievements: 1525</h1>
-    <h1 class="stat">Games Mastered: 6</h1>
+    <div class="main">
+      <h1>Welcome to Gamba</h1>
+      <p>The rules: Collect as many numbers as you can by pressing the button!</p>
+    </div>
+    <button type="button" id="gambaButton">Roll</button>
+    <h1 class="main" id="currentNumber">Current Number: 0</h1>
+    <h2 class="main">Progress: <b id="percent">0%</b> | Number of clicks: <b id="clicks">0</b></h2>
+    <h2 class="main">Number Tracker</h2>
+    <div class="boxContainer main">
+    </div>
+    <script src="../js/gamba.js" type="module"></script>
   </body>
 </html>
-
