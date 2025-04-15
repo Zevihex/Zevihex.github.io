@@ -164,6 +164,7 @@ iframe {
 
 #gambaButton:hover {
   color: lightgray;
+  cursor: pointer;
 }
 
 #gambaButton:active {
